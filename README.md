@@ -20,7 +20,7 @@ curl --request GET https://api.github.com/users/jrday-fc/repos | \
 		curl \
 			--user jrday-fc:$TOKEN \
 			--data '{"private": "true"}' \
-    		--request PATCH https://api.github.com/repos/jrday-fc/%
+    			--request PATCH https://api.github.com/repos/jrday-fc/%
 ```
 
 ## Rename default branch from `master` to `main` in a repo
